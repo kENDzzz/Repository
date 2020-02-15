@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/firstpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/mywholefamily" />
+
+    <ImageView
+        android:id="@+id/fourthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/thirdpic"
+        app:layout_constraintTop_toBottomOf="@+id/secondpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/lucena" />
+
+    <ImageView
+        android:id="@+id/thirdpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/myparents" />
+
+    <ImageView
+        android:id="@+id/secondpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/firstpic"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/myfamily" />
+
+    <ImageView
+        android:id="@+id/sixthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/fifthpic"
+        app:layout_constraintTop_toBottomOf="@+id/fourthpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/friedchicken" />
+
+    <ImageView
+        android:id="@+id/seventhpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/artsandcrafts" />
+
+    <ImageView
+        android:id="@+id/eighthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toEndOf="@+id/seventhpic"
+        app:layout_constraintTop_toBottomOf="@+id/sixthpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/ninthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seventhpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/cat2" />
+
+    <ImageView
+        android:id="@+id/fifthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/desc"
+        app:layout_constraintTop_toBottomOf="@+id/thirdpic"
+        android:background="@drawable/chocolates" />
+
+    <ImageView
+        android:id="@+id/tenthpic"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toEndOf="@+id/ninthpic"
+        app:layout_constraintTop_toBottomOf="@+id/eighthpic"
+        android:contentDescription="@string/desc"
+        android:background="@drawable/pewdiepie" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
